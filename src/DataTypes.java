@@ -9,6 +9,22 @@ public class DataTypes {
        boolean b = true;
        char c = 'c';
        String s = "Test";
+       DataTypes dt;
+       String xyz = "Testing if everything works." + " Ok";
+
+       String abc = new String();
+
+       abc = "Testing is ok";
+
+       String s1 = "Way";
+       String s2 = "2";
+       String s3 = "Automation";
+
+       String s4 = s1+s2+s3;
+
+       System.out.println(s4);
+       System.out.println(xyz);
+       System.out.println(abc);
 
 
     }
