@@ -6,9 +6,9 @@ public class Home {
 
     public void display(){
 
-        String x = "Dislay";
+        String x = "Display";
 
-        
+
     }
 
 
