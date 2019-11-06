@@ -1,15 +1,15 @@
 public class Home {
 
 
-    int i;
+    int i = 123;
     //display
-    int j;
+    int j = 234;
 
 
     //void
     public void display(){
 
-
+      i = 333;
 
         System.out.println("Text inside display Method");
     }
@@ -26,6 +26,8 @@ public class Home {
     //number
     public int number(int k, String a, char c, float f){
 
+        i = 345;
+        j = 890;
         k = 20;
         f = 12.5f;
         a ="Display";
@@ -36,12 +38,26 @@ public class Home {
 
     public static void main(String[] args){
 
-        Home house1 = new Home();
+        /*Home house1 = new Home();
         house1.display();
 
         Home house2 = new Home();
-        house2.word();
+        house2.word();*/
         //house.number(k, a, c, f);
+
+        Home h1 = new Home();
+        h1.i++; // i = 123 + 1
+
+        Home h2 = new Home();
+        h2.i--; // i = 123 - 1
+
+        Home h3 = new Home();
+        //It should be 123
+        System.out.println(h3.i);
+        //It should be 122
+        System.out.println(h2.i);
+
+
 
 
     }
