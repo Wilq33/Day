@@ -31,6 +31,7 @@ public class Home {
         k = 20;
         f = 12.5f;
         a ="Display";
+        c = 'c';
 
         return 5;
     }
@@ -70,11 +71,6 @@ public class Home {
         System.out.println("The sum is: "+ sub);
         System.out.println("The sum is: "+ mul);
         System.out.println("The sum is: "+ div);
-
-        //Random number between 0 and 10
-        double random = Math.round(Math.random() * 10);
-        System.out.println("The random number is: "+ random);
-
 
     }
 
