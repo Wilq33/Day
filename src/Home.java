@@ -73,8 +73,9 @@ public class Home {
         System.out.println("The sum is: "+ mul);
         System.out.println("The sum is: "+ div);
 
-        random();
-        System.out.println("The random number is: "+ random());
+        double random = Math.random();
+        System.out.println("The random number is: "+ random);
+
 
     }
 
