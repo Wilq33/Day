@@ -7,12 +7,18 @@ public class Random {
         double random = Math.round(Math.random() * 10);
         System.out.println("The random number is: "+ random);
 
-        if(random > 5){
+        if(random == 5){
 
-            System.out.println("Number is greater that 5");
+            System.out.println(random + " is the lucky number");
+        }else if(random >= 6 && random <= 9){
+
+            System.out.println(random + " is greater than 5 or equal to 9");
+        }else if(random ==10){
+
+            System.out.println(random + " is the winning number");
         }else{
 
-            System.out.println("Number is lower than 5");
+            System.out.println(random + " is less than 5");
         }
 
     }
