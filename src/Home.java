@@ -45,7 +45,7 @@ public class Home {
         house2.word();*/
         //house.number(k, a, c, f);
 
-        Home h1 = new Home();
+        /*Home h1 = new Home();
         h1.i++; // i = 123 + 1
 
         Home h2 = new Home();
@@ -55,10 +55,21 @@ public class Home {
         //It should be 123
         System.out.println(h3.i);
         //It should be 122
-        System.out.println(h2.i);
+        System.out.println(h2.i);*/
 
+        Calculator calcSum = new Calculator();
+        int sum = calcSum.getSum(10,5);
+        Calculator calcSub = new Calculator();
+        int sub = calcSub.getSub(10,5);
+        Calculator calcMul = new Calculator();
+        int mul = calcMul.getMul(10,5);
+        Calculator calcDiv = new Calculator();
+        int div = calcDiv.getDiv(10,5);
 
-
+        System.out.println("The sum is: "+ sum);
+        System.out.println("The sum is: "+ sub);
+        System.out.println("The sum is: "+ mul);
+        System.out.println("The sum is: "+ div);
 
     }
 
