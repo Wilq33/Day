@@ -1,18 +1,15 @@
 public class WhileLoop {
 
-
-
-
     public static void main(String[] args){
 
-
-        while(Random.randomNumber <= 5){
-
-            System.out.println(Random.randomNumber);
-        }
+        double i = Random.randomNumber;
 
 
+            while (10 >= i){
+
+                System.out.println(i);
+                i++;
+
+            }
     }
-
-
 }
