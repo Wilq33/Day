@@ -1,3 +1,5 @@
+import static java.lang.Math.random;
+
 public class Home {
 
 
@@ -70,6 +72,9 @@ public class Home {
         System.out.println("The sum is: "+ sub);
         System.out.println("The sum is: "+ mul);
         System.out.println("The sum is: "+ div);
+
+        random();
+        System.out.println("The random number is: "+ random());
 
     }
 
