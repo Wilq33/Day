@@ -1,5 +1,3 @@
-import static java.lang.Math.random;
-
 public class Home {
 
 
@@ -73,7 +71,8 @@ public class Home {
         System.out.println("The sum is: "+ mul);
         System.out.println("The sum is: "+ div);
 
-        double random = Math.random();
+        //Random number between 0 and 10
+        double random = Math.round(Math.random() * 10);
         System.out.println("The random number is: "+ random);
 
 
