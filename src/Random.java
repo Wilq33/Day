@@ -1,6 +1,6 @@
 public class Random {
 
-    public static double randomNumber = Math.round(Math.random() * 10);
+    public static double randomNumber = Math.round(Math.random() *10);
 
     public static void main(String[] args){
 
