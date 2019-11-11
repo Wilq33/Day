@@ -9,8 +9,9 @@ public class Hoop {
             System.out.print(m);
             m++;
         }*/
-       
+
         int i=0;
+        int count=0;
 
         while(i<3){
 
@@ -21,6 +22,7 @@ public class Hoop {
 
                     System.out.println("i=" + i  +" j="+ j +" k=" + k);
                     k++;
+                    count++;
 
                 } while (k < 5);
 
@@ -28,6 +30,8 @@ public class Hoop {
             i++;
 
         }
+
+        System.out.println("Loop counter: " + count);
 
     }
 
