@@ -20,11 +20,16 @@ public class Brake {
 
         for(int i=0; i<10; i++){
 
+            if (i>=3)
+                continue;
 
-            if(i==5)
+            /*if(i==5)
             break;
-            
+            */
+
             System.out.println(i);
         }
+
+        System.out.println("Outside the loop");
     }
 }
