@@ -32,7 +32,6 @@ public class Printing {
         print();
         addNumbers();
         addNumbers2(12, 18);
-
-
+        
     }
 }
