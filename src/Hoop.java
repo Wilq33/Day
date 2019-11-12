@@ -2,13 +2,14 @@ public class Hoop {
 
     public static void main(String[] args){
 
-       /* double m = Random.randomNumber;
+        /*double m = Random.randomNumber;
 
-        for(;m<=20;){
+        for(;m<=20;) {
 
-            System.out.print(m);
+            System.out.print(" " + m);
             m++;
         }*/
+
 
         int i=0;
         int count=0;
