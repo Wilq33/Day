@@ -16,20 +16,30 @@ public class Printing {
 
     }
 
-    public static void addNumbers2(int r, int s){
+    public static int addNumbers2(int r, int s){
 
         int add = r + s;
-        System.out.println("r + s = " + add);
+        return add;
 
     }
 
+    public static void table(int t){
 
+        for(int i=1; i<=10; i++){
+
+            System.out.println(t*i);
+
+        }
+
+    }
 
     public static void main(String[] args) {
 
         print();
         addNumbers();
-        addNumbers2(12, 18);
+        int res = addNumbers2(12, 18);
+        System.out.println("r + s = " + res);
+        table(3);
 
     }
 }
