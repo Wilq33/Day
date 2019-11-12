@@ -18,12 +18,20 @@ public class Printing {
 
     }
 
+    public static void addNumbers2(int r, int s){
+
+        int add = r + s;
+        System.out.println("r + s = " + add);
+
+    }
+
 
 
     public static void main(String[] args) {
 
         print();
         addNumbers();
+        addNumbers2(12, 18);
 
 
     }
