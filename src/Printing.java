@@ -4,9 +4,7 @@ public class Printing {
 
         System.out.println("Checking");
 
-
     }
-
 
     public static int a = 30;
     public static int b = 20;
@@ -32,6 +30,6 @@ public class Printing {
         print();
         addNumbers();
         addNumbers2(12, 18);
-        
+
     }
 }
