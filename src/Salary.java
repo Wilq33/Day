@@ -6,6 +6,16 @@ public class Salary {
 
         salary = new int[10];
 
+        try {
+            salary[12] = 100;
+
+        }catch(Exception e){
+
+            System.out.println("Error occurred");
+            System.out.println(e.getMessage());
+
+        }
+
         String month[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
 
         System.out.println(month[0]);
