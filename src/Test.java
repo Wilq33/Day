@@ -2,12 +2,12 @@ public class Test {
 
     public static void main(String[] args) {
 
-        Test t = new Test();
-        System.out.println(t);
+       System.out.println("Beginning");
 
-        t = null;
+       int divide = 10/0;
+       System.out.println(divide);
 
-        Home h = new Home();
+       System.out.println("Ending");
 
     }
 
