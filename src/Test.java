@@ -9,9 +9,12 @@ public class Test {
 
             int divide = 10 / 0;
             System.out.println(divide);
-        }catch(Throwable t){
+        }catch(Exception e){
 
-            System.out.println("Error occured");
+            System.out.println("Error occurred");
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+
         }
        System.out.println("Ending");
 
