@@ -3,7 +3,7 @@ package Rough;
 public class Bank {
 
     public int accountNo = 123456;
-    public int pinNo = 1234;
+    private int pinNo = 1234;
     public double balanceAmount = 1000000;
 
     public void withdrawAmount(int accNo, int pin, int amount){
@@ -21,6 +21,20 @@ public class Bank {
 
             }
 
+        }else{
+
+            System.out.println("Invalid credentials");
+
+        }
+
+    }
+
+    public void updatePin(int accNo, int oldPin, int newPin){
+
+        if (accNo == accountNo && oldPin == pinNo){
+
+            pinNo = newPin;
+            System.out.println("Pin changed successfully");
 
         }else{
 
