@@ -29,7 +29,7 @@ public class Salary {
             System.out.println(month[i]);
         }
 
-        throw new Exception("Error Occurred");
+        /*throw new Exception("Error Occurred");*/
 
     }
 }
