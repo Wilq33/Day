@@ -6,27 +6,42 @@ public class Bank {
     private int pinNo = 1234;
     public double balanceAmount = 1000000;
 
-    public void withdrawAmount(int accNo, int pin, int amount){
+    public void withdrawAmount(int accNo, int pin, int amount) {
 
-        if(accNo == accountNo && pin == pinNo){
+        if (accNo == accountNo && pin == pinNo) {
 
-            if(amount<=balanceAmount){
+            if (amount <= balanceAmount) {
 
                 balanceAmount = balanceAmount - amount;
                 System.out.println("Amount withdrew: " + amount);
 
-            }else{
+            } else {
 
                 System.out.println("Insufficient Balance");
 
             }
 
-        }else{
+        } else {
 
             System.out.println("Invalid credentials");
 
         }
 
+    }
+
+    public double depositCash(int accNo, int pin, double amount) {
+
+        if (accNo == accountNo && pin == pinNo) {
+
+            balanceAmount = balanceAmount + amount;
+            return balanceAmount;
+
+        } else {
+
+            System.out.println("Invalid credentials");
+            return balanceAmount;
+
+        }
     }
 
     public void updatePin(int accNo, int oldPin, int newPin){
@@ -44,8 +59,4 @@ public class Bank {
 
     }
 
-
-    public static void main(String[] args) {
-
-    }
 }
