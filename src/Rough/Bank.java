@@ -4,7 +4,7 @@ public class Bank {
 
     public int accountNo = 123456;
     private int pinNo = 1234;
-    public double balanceAmount = 1000000;
+    private double balanceAmount = 1000000;
 
     public void withdrawAmount(int accNo, int pin, int amount) {
 
