@@ -1,6 +1,6 @@
 public class Salary {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         int[] salary;
 
@@ -16,6 +16,8 @@ public class Salary {
 
         }
 
+
+
         String month[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
 
         System.out.println(month[0]);
@@ -26,6 +28,8 @@ public class Salary {
 
             System.out.println(month[i]);
         }
+
+        throw new Exception("Error Occurred");
 
     }
 }
