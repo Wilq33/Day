@@ -8,4 +8,10 @@ public class Dog extends Animal{
         obj.sound();
 
     }
+
+    public void sound(){
+
+        System.out.println("woof woof");
+
+    }
 }
