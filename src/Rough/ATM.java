@@ -12,6 +12,6 @@ public class ATM {
         obj.updatePin(123456, 1234, 3333);
 
         obj.withdrawAmount(123456, 3333, 1000);
-        
+
     }
 }
